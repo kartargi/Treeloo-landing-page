@@ -16,5 +16,192 @@ body {
     background-size: cover;
     background-position: center;
     height: 700px;
+    position: relative;
+    padding: 30px 100px;
+}
+
+/* Header & Navigation styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* padding: 20px; */
 }
+
+.logo > a {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.nav > .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav > .nav-links > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-btn {
+   
+    background-color: white;
+    color:rgba(62, 134, 245, 1) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500px
+}
+
+/* hero section */
+.hero-content {
+    text-align: center;
+    max-width: 850px;
+    margin: 120px;
+    color: white;
+    
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    color: white;
+    
+
+    
+}
+.hero-content p {
+    font-size: 24px;
+    margin: 200px;
+    margin-top: 40px;
+    color: white;
+}
+
+/* booking section Styles */
+/* .booking-container { */
+    /* border: 1px solid blue;
+    max-width: 1100px;
+    /* position: absolute */
+    /* width: 80px;
+    background-color */ 
+/* } */
+
+/* Special offers  */
+.special-offers {
+  margin-top: 100px 20px;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special-offer h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.top-offers-table {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow:0 4px 15px rgba(0, 0, 0, 0.5)    ;  
+}
+
+.offer-btn {
+    border: none;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(64, 63, 141);
+}
+
+.offer-btn.active {
+    background-color:#3E86F5 ;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* bottom-offers grid Styles */
+.bottom-offers {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 16px ;
+    box-shadow: 0 10px 30px  rgba(0, 0, 0, 0.3);
+}
+
+.offer-img-container {
+    position: relative;
+}
+
+.offer-card img {
+    width: 100%;
+}
+
+/* Vertical Date Styling */
+.card-date {
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+    right: -10px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: #8895a7;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+.card-content {
+    padding: 20px 10px;
+}
+
+.card-info-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.tag {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tag-relax {
+    background-color: #e0f7fa;
+    color: #F178B6;
+}
+ 
+.tag-adventure {
+    background-color: #dff4fd;
+    color: #7879f1;
+}
+
+.duration {}
